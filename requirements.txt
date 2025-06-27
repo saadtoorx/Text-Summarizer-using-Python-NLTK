@@ -1,0 +1,10 @@
+nltk==3.8.1
+✅ This includes everything you need for tokenization and stopword handling.
+
+Note: The script also downloads stopwords and punkt the first time it's run:
+
+python
+Copy
+Edit
+nltk.download('stopwords')
+nltk.download('punkt')
